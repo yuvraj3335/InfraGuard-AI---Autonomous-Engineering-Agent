@@ -55,3 +55,14 @@ It leverages the **Gemini API** for natural language processing and **Streamlit*
 ```bash
 git clone https://github.com/your-repo/infraguard-ai.git
 cd infraguard-ai
+
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+
+### 3. Set Env variable
+
+### 4. Run the app - streamlit run app.py
