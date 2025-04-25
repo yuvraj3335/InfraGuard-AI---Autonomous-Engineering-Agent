@@ -17,7 +17,6 @@ Analysis Modules:
 iam_analyzer.py: IAM policy analysis using boto3.
 kafka_explainer.py: Synthetic Kafka log generation and lag analysis.
 infra_summarizer.py: Terraform diff analysis via PyGithub.
-Each of them uses Lanchain memory ConversationBufferMemory for maintaing the conversation Context.
 
 
 Decision Engine (decision_engine.py): Risk scoring and action decisions.
@@ -34,7 +33,6 @@ boto3: AWS SDK for IAM.
 PyGithub: GitHub API for PR diffs.
 requests: Teams webhook notifications.
 pandas: CSV generation for incident logs.
-Langchain: for conversational context.
 
 Setup Instructions
 
@@ -81,6 +79,7 @@ Actions are logged to infraguard.log for auditing.
 
 Future Enhancements
 
+Add LangChain for conversational context.
 Implement real Kafka metrics.
 Replace hardcoded login with OAuth.
 Optimize for large-scale incident handling.
