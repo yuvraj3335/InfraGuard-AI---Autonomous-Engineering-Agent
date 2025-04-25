@@ -1,0 +1,8 @@
+streamlit
+boto3
+confluent-kafka
+PyGithub
+requests
+sqlalchemy
+python-dotenv
+google-generativeai
