@@ -12,22 +12,7 @@ It uses the **Gemini API** for natural language processing and **Streamlit** for
 - **Incident Management**: Track and manage incidents via a Streamlit dashboard with downloadable logs.
 - **Automated Notifications**: Sends alerts to Microsoft Teams for critical actions.
 - **Simulation Mode**: Run a full analysis across all modules with one click.
-# 🛡️ InfraGuard AI
 
-InfraGuard AI is an intelligent infrastructure analysis and incident management system that enhances security and performance across AWS IAM policies, Kafka consumer lag, and Terraform infrastructure changes.
-It uses the **Gemini API** for natural language processing and **Streamlit** for an intuitive UI—automating risk detection, resolution suggestions, and incident tracking.
-
----
-
-## ✨ Features
-- **IAM Policy Analysis**: Detects over-permissive AWS IAM policies and suggests least-privilege alternatives.
-- **Kafka Lag Analysis**: Analyzes synthetic Kafka consumer lag data to detect bottlenecks and recommend optimizations.
-- **Infra Change Analysis**: Reviews Terraform diffs from GitHub PRs to flag risks and suggest secure configurations.
-- **Incident Management**: Track and manage incidents via a Streamlit dashboard with downloadable logs.
-- **Automated Notifications**: Sends alerts to Microsoft Teams for critical actions.
-- **Simulation Mode**: Run a full analysis across all modules with one click.
-
----
 
 ## 🧩 Implemented Components
 - `app.py`: Central dashboard (Streamlit UI).
@@ -60,32 +45,7 @@ All analysis modules use **LangChain's `ConversationBufferMemory`** to maintain 
 ### 1. Clone the Repository
 ```bash
 ---
-
-## 🧩 Implemented Components
-- `app.py`: Central dashboard (Streamlit UI).
-- `infraguard.db`: SQLite database using SQLAlchemy.
-- `iam_analyzer.py`: AWS IAM policy analysis using `boto3`.
-- `kafka_explainer.py`: Synthetic Kafka lag data generation and analysis.
-- `infra_summarizer.py`: Terraform PR diff analysis using `PyGithub`.
-- `decision_engine.py`: Risk scoring logic and action decisions.
-- `action_generator.py`: Generates PR content and Teams notifications.
-- `main.py`: Coordinates full simulation.
-
-All analysis modules use **LangChain's `ConversationBufferMemory`** to maintain conversation context.
-
 ---
-
-## ⚙️ Technologies Used
-- Python 3.8+
-- [Streamlit](https://streamlit.io)
-- [Gemini API](https://aistudio.google.com/app/prompts)
-- SQLAlchemy
-- `boto3` (AWS SDK for IAM)
-- `PyGithub` (GitHub API)
-- `requests` (for Teams Webhook)
-- `pandas` (for CSV logs)
-- `Langchain` (memory & conversational logic)
-
 ---
 
 ## 🚀 Setup Instructions
