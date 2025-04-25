@@ -179,36 +179,24 @@ All key events and actions are logged to infraguard.log for audit purposes.
 - Integrate real Kafka metrics.
 - Add OAuth-based login system.
 - Optimize system for large-scale incident handling.
+![login Page ](https://github.com/user-attachments/assets/b1f5d4a0-af22-49f8-8930-3a89b0d44735)
 
-## 📸 Screenshots
-
-### Login Page
-![Login](assets/login Page.png)
-
-### Dashboard UI
-![Dashboard](assets/dashboard.png)
-
-### IAM
-![IAM](assets/IAM.png)
-
-### infra
-![infra](assets/terraform-infra.png)
-
- ### Kafka Lag
-![KafkaLag](assets/KafkaLag.png)
-
- ### PR review
-![PR](assets/PR review.png)
-
-### Incident-Dashboard
-![Incident-Dashboard](assets/Incident-Dashboard.png)
-
-### Downloaded logs
-![Downloadedlogs](assets/Downloaded logs.png)
+![dashboard](https://github.com/user-attachments/assets/7d0a556f-aaf0-47f7-80cb-41af1b4d2a33)
 
 
+![IAM](https://github.com/user-attachments/assets/57dfef87-c556-4e80-94ef-be1010b6bf85)
 
 
+![KafkaLag](https://github.com/user-attachments/assets/fbc79710-8f15-4c6b-b244-5d78fb9efdfb)
 
 
+![terraform-infra](https://github.com/user-attachments/assets/2436d9e1-8ad7-434a-906a-f33df0c0fed8)
 
+
+![Incident-Dashboard](https://github.com/user-attachments/assets/f994e33f-d879-42c5-99af-2f1605eafb7a)
+
+
+![PR review](https://github.com/user-attachments/assets/c845c0e4-9ab2-45de-a80a-4b3a85021269)
+
+
+![Downloaded logs](https://github.com/user-attachments/assets/73977535-429a-461e-b53f-e05d3c36b973)
